@@ -8,7 +8,7 @@ const pipeline = [
 const fileName = process.argv[2];
 
 try {
-    pipeline.reduce((previousResult, fn) => fn(previousResult), fileName)
+    pipeline.reduce((previousResult, fn) => fn(previousResult), fileName);
 } catch (e) {
     console.error(`Error: ${e.message}`);
 }
