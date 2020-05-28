@@ -1,0 +1,18 @@
+{
+  "name": "gpx-adjust",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gpx-adjust": "./cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6"
+  }
+}
